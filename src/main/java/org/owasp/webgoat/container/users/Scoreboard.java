@@ -32,7 +32,6 @@ public class Scoreboard {
     private String username;
     private List<String> flagsCaptured;
   }
-
   // 주석입니다.
   @GetMapping("/scoreboard-data")
   public List<Ranking> getRankings() {

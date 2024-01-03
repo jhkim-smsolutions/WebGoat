@@ -33,6 +33,7 @@ public class Scoreboard {
     private List<String> flagsCaptured;
   }
 
+  // 주석입니다.
   @GetMapping("/scoreboard-data")
   public List<Ranking> getRankings() {
     return userRepository.findAll().stream()

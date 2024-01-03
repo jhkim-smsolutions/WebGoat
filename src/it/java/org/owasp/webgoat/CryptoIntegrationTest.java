@@ -32,7 +32,7 @@ public class CryptoIntegrationTest extends IntegrationTest {
       e.printStackTrace();
       fail();
     }
-
+    // 주석입니다. 240103
     try {
       checkAssignmentSigning();
     } catch (Exception e) {
